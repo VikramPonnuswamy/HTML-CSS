@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="5stylesheet.css" />
+    <!-- Using a google form hence etablishing a link to the google open source to grab the font.
+        These links are provided by the source to embed-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Playpen+Sans:wght@200;400&display=swap" rel="stylesheet">
+
+    <meta charset="utf-8" />
+    <!-- name is self explanatory - specifies the name if the meta data-->
+    <meta name="description" content="CMT119 Computational Thinking, HTML & CSS Assignment">
+    <meta name="keywords" content="HTML, CSS, Computational Thinking, Sir Tim Berners-Lee">
+    <meta name="author" content="Vikram Ponnuswamy">
+
+    <!-- *****need to find out if this is case sensitive*****-->
+    <meta name="studentnumber" content="23106080" />
+
+    <!-- viewport is the user device they are viewing the webpage from. The width keyword takes the width of the device they are viewing from and initial scale keyword tells the initial view magnification before user zooms in and out.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- this defines the title of the document.-->
+    <title>CMT119 Computational Thinking: Assignment 1</title>
+</head>
+
+<body>
+
+    <header>
+        <h1> HTML & CSS Based Assessment </h1>
+        <h2> Vikram Ponnuswamy 23106080 </h2>
+    </header>
+            
+    <!-- I used div for the nav because I explored the method with ul and li with a id/class but when it came to my
+         css I experienced issues with the reference links on my page where it took the styling as well. To avoid that 
+         I've used div here 
+     -->
+    <div class= "nav">
+       
+        <a href="1HomePage.html"> Home </a> 
+        <a href="2ComputationalThinking.html">Computational Thinking</a>
+        <a href="3ShortBio.html">Biography of Sir Tim John Berner-Lee </a>
+        <a href="4Reflection.html">Key Learning Takeaways</a>
+            
+    </div>
+
+    <main>
+        <div class="sidebyside1">
+            <div class="content3">
+                   <!--Using div here so that image travels with the text and links as one on the webpage. Div allows me to give it a name which provides the flexibility to style it differently compared to other sections if required.-->
+                <div class="TimImage">
+                    <img src="Sir_Tim_Berners-Lee.jpeg" alt="Sir Tim Berners-Lee arriving at the Guildhall to receive the Honorary Freedom of the City of London" 
+                    width="400"
+                    height="500"
+                    />
+                     <p>
+                         Image Attribution & Credits:
+                        <br />
+                        <a href="https://commons.wikimedia.org/wiki/File:Sir_Tim_Berners-Lee_(cropped).jpg">Paul Clarke</a>
+                        <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0, via Wikimedia Commons</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="content4">
+
+          
+                <h3> Biography of Sir Tim Berner-Lee: The Inventor of the World Wide Web </h3>
+                <p> Sir Tim Berner-Lee is a British scientist who invented the World Wide Web (WWW) in 1989 whilst working at CERN (The European Particle Physics Laboratory). Sir Tim was exposed to world of “1”s and “0”s from a very young age by his parents who both worked on the first commercial computer – Ferranti Mark 1<sup>[4]</sup>. Berner-Lee completed physics degree from the University of Oxford in 1976. Upon the completion of his degree, he became a software consultant before making his way to CERN.</p>
+                <p> While he worked at CERN, he initially developed a technique known as hypertext which could store information that is filed and contained links across same and different files. Four years later, Sir Tim proposed and developed the global hypertext document system which would use the internet and allow CERN researchers to share their results, techniques and practices without the need to email, whereby information was readily available online. Subsquently, leading to the development of the first web server and first WWW client – Browser. The WWW uses internet to store hypertext document in the servers and retrieves all the hypertext document that contains the keyword(s) that has been searched by the user. Hypertext document is written in hypertext markup language which is used to formatting system for displaying material over the internet<sup>[4]</sup>. To enable the exchange of hypertext document over the internet, Berner-Lee developed the HyperText Transfer Protocol (HTTP) between 1989 and 1991. In layman’s terms, web browsers are HTTP clients that send files requests to requests to the web server <sup>[7]</sup>. HTTP contains specific instruction on how to read and process a hypertext document. </p>
+                <p> Berner-Lee also founded the World Wide Web Consortium in 1994, working with companies to improve and create a standard for the web. His vision is to preserve the web and ensure that web is free, non-proprietary and accessible to everyone.</p>
+
+            </div>
+        </div>
+        
+        
+    </main>
+    
+
+    <footer>
+        <h3> References</h3>
+        <!-- Here i have used ordered list to give each references a numbering which acts as a key in the content whereever there is a superscript in the text. For viewer to conduct further reading, I have ensured that these online links are hyperlinked so that they are accesible from the landing page.-->
+        <!--I had repeated the link twice in the a href tag so that the URL is visible on the page.-->
+        <ol>
+            <li>
+                What is computational thinking? - introduction to computational thinking - KS3 computer science revision - BBC bitesize(no date) BBC News. Available at: <a href="https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1">https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1 </a> (Accessed: 23 October 2023).
+            </li>
+
+            <li>
+                Brooks, R. (2023) What is computational thinking?, University of York. Available at: <a href="https://online.york.ac.uk/what-is-computational-thinking/ ">https://online.york.ac.uk/what-is-computational-thinking </a> (Accessed: 23 October 2023).
+            </li>
+
+            <li>
+                Jeannette M. Wing Carnegie Mellon University et al. (2006) Computational thinking, Communications of the ACM. Available at: <a href="https://dl.acm.org/doi/pdf/10.1145/1118178.1118215">https://dl.acm.org/doi/pdf/10.1145/1118178.1118215</a> (Accessed: 23 October 2023).
+            </li >
+
+            <li>
+                Tim Berners-Lee (no date) Encyclopædia Britannica. Available at:  <a href="https://www.britannica.com/biography/Tim-Berners-Lee">https://www.britannica.com/biography/Tim-Berners-Lee</a>(Accessed: 23 October 2023).
+            </li>
+
+            <li>
+                Timothy John Berner-Lee (no date) Famous Scientists. Available at: <a href="https://www.famousscientists.org/timothy-john-berners-lee/">https://www.famousscientists.org/timothy-john-berners-lee/</a> (Accessed: 23 October 2023).
+            </li>
+
+            <li>
+                World wide web (no date) Encyclopædia Britannica. Available at: <a href="https://www.britannica.com/topic/World-Wide-Web">https://www.britannica.com/topic/World-Wide-Web</a> (Accessed: 23 October 2023).
+            </li>
+
+            <li>
+                HTTP (no date) Encyclopædia Britannica. Available at: <a href="https://www.britannica.com/technology/HTTP">https://www.britannica.com/technology/HTTP</a> (Accessed: 23 October 2023).
+            </li>
+        </ol>
+       
+
+    </footer>
+</body>
+
+</html>
+
+<!-- Black and yellow, black and yellow iykyk! :'D see website to understand!-->

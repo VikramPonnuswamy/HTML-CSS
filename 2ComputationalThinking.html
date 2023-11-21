@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="5stylesheet.css" />
+    <!-- Using a google form hence etablishing a link to the google open source to grab the font.
+        These links are provided by the source to embed-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Playpen+Sans:wght@200;400&display=swap" rel="stylesheet">
+
+    <meta charset="utf-8" />
+    <!-- name is self explanatory - specifies the name if the meta data-->
+    <meta name="description" content="CMT119 Computational Thinking, HTML & CSS Assignment">
+    <meta name="keywords" content="HTML, CSS, Computational Thinking, Sir Tim Berners-Lee">
+    <meta name="author" content="Vikram Ponnuswamy">
+
+    <!-- *****need to find out if this is case sensitive*****-->
+    <meta name="studentnumber" content="23106080" />
+
+    <!-- viewport is the user device they are viewing the webpage from. The width keyword takes the width of the device they are viewing from and initial scale keyword tells the initial view magnification before user zooms in and out.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- this defines the title of the document.-->
+    <title>CMT119 Computational Thinking: Assignment 1</title>
+</head>
+
+<body>
+
+    <header>
+        <h1> HTML & CSS Based Assessment </h1>
+        <h2> Vikram Ponnuswamy 23106080 </h2>
+    </header>
+            
+    <!-- I used div for the nav because I explored the method with ul and li with a id/class but when it came to my
+         css I experienced issues with the reference links on my page where it took the styling as well. To avoid that 
+         I've used div here 
+     -->
+    <div class= "nav">
+       
+        <a href="1HomePage.html"> Home </a> 
+        <a href="2ComputationalThinking.html">Computational Thinking</a>
+        <a href="3ShortBio.html">Biography of Sir Tim John Berner-Lee </a>
+        <a href="4Reflection.html">Key Learning Takeaways</a>
+    </div>
+
+    <main>
+    
+        <div class="sidebyside">
+
+            <div class="content">
+                <h3> An introductory guide to computational thinking</h3>
+
+                <p>
+                In today’s modern world, computers are commonly found and utilised to its maximum capacity to enhance the experience of a human interaction. Computers are widely used to solve complex problems as such that it has become a daily toolset for everyone. Computers are electronic devices that store, retrieve and process data that has been programmed by a human using sets of mathematical abstraction and algorithms.
+                </p>
+
+                <p>
+                Computational thinking allows the human to breakdown a complex problem into smaller manageable fragments and develop possible solutions that can be understood by computers, human or both <sup> [1]</sup>. In layman’s terms, computational thinking enables a human to approach any problem in a structured manner and to develop solution(s) that are simple enough to be executed by a computer or another person.
+                </p>
+
+                <p>
+                There are four essential pillars of computational thinking:
+
+                <!-- I used unordered list here because the order of the content is irrelevant here.-->
+                <ul>
+                    <li> Decomposition – Process of breaking down a larger complex problem into manageable bite size chunks. </li>
+                    <li> Abstraction – Focusing on the most important information and elements of the problem. Ignoring the irrelevant and unnecessary details <sup> [2]</sup>.</li>
+                    <li> Pattern Recognition – Identifying similarities and patterns within a problem to optimise a solution. This can be done pre or post algorithm creation. </li>
+                    <li> Algorithms – Developing a step-by-step solution to the complex problem using series of instructions that a computer can interpret and process data to solve a problem. </li>
+                </ul>
+                </p>
+            </div>
+
+            <div class="content2">
+                <h3> Why is computational thinking important to the programme of study? </h3>
+
+                <p>
+                Computational thinking introduces concepts such as problem solving, critical thinking, logic processing and algorithms which are all steppingstone to sound programming. In this course, there will be challenges, programming tasks, designing and implementation of solution(s) to a complex problem. Thus, understanding computational thinking tunes the mind to approach all problems in a logical structure manner. It also nurtures an individual in the world of computation and visualise it from the perspective of a computer to solve any given tasks. During this programme of the study, we are expected to study various programming languages in depth (python, html, JavaScript, etc) and computational thinking is a steppingstone to solving complex challenges in these languages.
+                </p>
+
+                 <h3> Why is computational thinking important to my future careers? </h3>
+                <p>
+                I intend to pursue front end engineer which requires developing solutions and software that is visible to the user. A lot of which is utilising skills such as problem solving, designing and solution implementation. Computational thinking and it’s four foundations are the key elements to critical thinking. Learning these essential soft skills can prove beneficial in everyday daily life outside of computer science where I can constantly apply this methodology to solve my everyday problem. Having conducted wider reading written by Jeannette M. Wing, computational thinking is skill set for everyone <sup>[3]</sup>. Understanding computational thinking allows me to become more imaginative and creative with solution derivation. I can use this thought process in any career and in my every day life that requires conflict resolution.
+                </p>
+            </div>
+
+        </div>
+        <!-- I have used the width and height in the html code cuz I struggled to size it in the CSS and this worked far easier.-->
+    <div class="contentbelow">
+        <img src="1080px-Problem_Solving_Skills_-_Illustration.jpg" alt="Illustration depicting two employees sat together working on problem solving skills. One is using a laptop while the other speaks, and they are surrounded by puzzle pieces."
+        width="700"
+        height="500"
+        >
+        <p> 
+            Image Attribution & Credits:
+            <br />
+            <a href="https://commons.wikimedia.org/wiki/File:Problem_Solving_Skills_-_Illustration.jpg">Digits.co.uk Images<a>
+                <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0, via Wikimedia Commons</a>
+    
+        </p>
+    </div>
+   
+    </main>
+
+    <footer>
+        <h3> References</h3>
+        <!-- Here i have used ordered list to give each references a numbering which acts as a key in the content whereever there is a superscript in the text. For viewer to conduct further reading, I have ensured that these online links are hyperlinked so that they are accesible from the landing page.-->
+        <!--I had repeated the link twice in the a href tag so that the URL is visible on the page.-->
+        <ol>
+            <li>
+                What is computational thinking? - introduction to computational thinking - KS3 computer science revision - BBC bitesize(no date) BBC News. Available at: <a href="https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1">https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1 </a> (Accessed: 23 October 2023).
+            </li>
+
+            <li>
+                Brooks, R. (2023) What is computational thinking?, University of York. Available at: <a href="https://online.york.ac.uk/what-is-computational-thinking/ ">https://online.york.ac.uk/what-is-computational-thinking </a> (Accessed: 23 October 2023).
+            </li>
+
+            <li>
+                Jeannette M. Wing Carnegie Mellon University et al. (2006) Computational thinking, Communications of the ACM. Available at: <a href="https://dl.acm.org/doi/pdf/10.1145/1118178.1118215">https://dl.acm.org/doi/pdf/10.1145/1118178.1118215</a> (Accessed: 23 October 2023).
+            </li >
+
+            <li>
+                Tim Berners-Lee (no date) Encyclopædia Britannica. Available at:  <a href="https://www.britannica.com/biography/Tim-Berners-Lee">https://www.britannica.com/biography/Tim-Berners-Lee</a>(Accessed: 23 October 2023).
+            </li>
+
+            <li>
+                Timothy John Berner-Lee (no date) Famous Scientists. Available at: <a href="https://www.famousscientists.org/timothy-john-berners-lee/">https://www.famousscientists.org/timothy-john-berners-lee/</a> (Accessed: 23 October 2023).
+            </li>
+
+            <li>
+                World wide web (no date) Encyclopædia Britannica. Available at: <a href="https://www.britannica.com/topic/World-Wide-Web">https://www.britannica.com/topic/World-Wide-Web</a> (Accessed: 23 October 2023).
+            </li>
+
+            <li>
+                HTTP (no date) Encyclopædia Britannica. Available at: <a href="https://www.britannica.com/technology/HTTP">https://www.britannica.com/technology/HTTP</a> (Accessed: 23 October 2023).
+            </li>
+        </ol>
+       
+
+    </footer>
+
+</body>
+</html>
+<!-- Black and yellow, black and yellow iykyk! :'D see website to understand!-->
